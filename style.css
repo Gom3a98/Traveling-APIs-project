@@ -1,0 +1,112 @@
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+
+/*signin page***************/
+.signup{
+	
+	height: 100;
+	padding: 0;
+	margin:0;
+	background-size: cover;
+	
+
+}
+body
+{
+	background-image: url('back2.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.head
+{
+	color: white;
+}
+.btn
+{
+	width: 180px;
+	height: 40px;
+	align-items: center;
+}
+input[type='submit']
+{
+	align-items: center;
+}
+.signin{
+
+	height: 70;
+	padding: 0;
+	margin:0;
+	background-size: cover;
+
+	background-image: url('images/signin2.jpg');
+}
+a{
+	text-decoration: none;
+	color: orange;
+}
+.container2{
+	
+	width: 50%;
+	margin-left: 20%;
+	padding-top: 120px;
+	align-items: center;
+}
+
+input[type=text],input[type=password] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/*--------------Home----------------*/
+.clear
+{
+	clear: both;
+}
+
+.content
+{
+	margin: auto;
+	width: 1200px;
+}
+
+.About
+{
+	background-image: url(back.jpg);
+	width:100%;
+	height: 500px;
+	padding-top: 40px;
+}
+p{
+	margin:0;
+	padding:0;
+}
+h1
+{
+	font-weight: bold;
+	font-family: sans-serif;
+	font-style: italic;
+	color: orange;
+}
+.About p
+{
+	margin: 0;
+	padding-top: 180px;
+	text-align: center;
+	font-size: 25px;
+	font-family: Tahoma;
+	line-height: 1.8
+
+}
+.about input[type='text']
+{
+	padding-right: 200px;
+}
