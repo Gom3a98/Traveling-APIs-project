@@ -19,7 +19,7 @@
 			</p>
 			
 				<div class="container">
-						<form action="" class="form" method="get">
+						<form action="GetMovie.php" class="form" method="get">
 							<input type="text" name="mname" class="TextField" placeholder="Movie Name">
 							<input type="submit" name="submit" class="btn" value="Search">
 						</form>
