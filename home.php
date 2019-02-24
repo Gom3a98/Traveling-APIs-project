@@ -5,6 +5,9 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
+<script>
+	let app = document.getElementById('mn')
+</script>
 <body>
 
 	<div class="About">
