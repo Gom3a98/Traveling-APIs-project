@@ -3,7 +3,7 @@ $id = $_GET['mname'];
 $curl = curl_init();
 //movie id is for deadpool.
 curl_setopt_array($curl, array(
-  CURLOPT_URL => "https://api.themoviedb.org/3/movie/$id?api_key=c0fe0cb9dd7a411fe124ccb8725af6c9&language=en-US"
+  CURLOPT_URL => "https://api.themoviedb.org/3/search/movie?api_key=c0fe0cb9dd7a411fe124ccb8725af6c9&query=$id&language=en-US"
 ,
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "",

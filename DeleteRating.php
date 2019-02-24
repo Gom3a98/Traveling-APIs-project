@@ -1,9 +1,12 @@
+
 <?php
+$id = $_POST['mmID']; //will be used in php.
+$id2 = $_POST['ssID'];
 
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-  CURLOPT_URL => "https://api.themoviedb.org/3/movie/284052/rating?session_id=1de318e428d68b656444876ac49658430bced1d6&api_key=c0fe0cb9dd7a411fe124ccb8725af6c9",
+  CURLOPT_URL => "https://api.themoviedb.org/3/movie/$id/rating?session_id=$id2&api_key=c0fe0cb9dd7a411fe124ccb8725af6c9",
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "",
   CURLOPT_MAXREDIRS => 10,

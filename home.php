@@ -13,8 +13,8 @@
 			<h1>Movie World</h1>
 			<p>
 
-				Hers is your place to know every thing about some movie
-				with us you can search for any thing related to any movie in Cenema World :D
+				Here is your place to know every thing about a movie
+				with us you can search for any thing related to any movie in Cinema World :D
 
 			</p>
 			
@@ -22,6 +22,32 @@
 						<form action="GetMovie.php" class="form" method="get">
 							<input type="text" name="mname" class="TextField" placeholder="Movie Name">
 							<input type="submit" name="submit" class="btn" value="Search">
+						</form>
+				</div>
+				<div class="container">
+						<form action="GetRequestToken.php" class="form" method="get">
+							<input type="submit" name="submit" class="btn" value="GetTokenToRate">
+						</form>
+				</div>
+				<div class="container">
+						<form action="CreateSession.php" class="form" method="post">
+							<input type="text" name="reqToken" class="TextField" placeholder="RequestToken">
+							<input type="submit" name="submit" class="btn" value="GetSessionID">
+						</form>
+				</div>
+				<div class="container">
+						<form action="PostRating.php" class="form" method="post">
+							<input type="text" name="mID" class="TextField" placeholder="Movie ID">
+							<input type="text" name="sID" class="TextField" placeholder="Session ID">
+							<input type="text" name="rID" class="TextField" placeholder="Rate Value from 1 to 10">
+							<input type="submit" name="submit" class="btn" value="Rate">
+						</form>
+				</div>
+				<div class="container">
+						<form action="DeleteRating.php" class="form" method="post">
+							<input type="text" name="mmID" class="TextField" placeholder="Movie ID2">
+							<input type="text" name="ssID" class="TextField" placeholder="Session ID2">
+							<input type="submit" name="submit" class="btn" value="Delete Rate">
 						</form>
 				</div>
 				<div class="container">
