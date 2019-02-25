@@ -45,23 +45,12 @@
 				</div>
 				<div class="container">
 						<form action="DeleteRating.php" class="form" method="post">
-							<input type="text" name="mmID" class="TextField" placeholder="Movie ID2">
-							<input type="text" name="ssID" class="TextField" placeholder="Session ID2">
+							<input type="text" name="mmID" class="TextField" placeholder="Movie ID">
+							<input type="text" name="ssID" class="TextField" placeholder="Session ID">
 							<input type="submit" name="submit" class="btn" value="Delete Rate">
 						</form>
 				</div>
-				<div class="container">
-						<form action="" class="form" method="get">
-							<input type="text" name="actor" class="TextField" placeholder="Actor">
-							<input type="submit" name="submit" class="btn" value="Search">
-						</form>
-				</div>
-				<div class="container">
-						<form action="" class="form" method="get">
-							<input type="text" name="cat" class="TextField" placeholder="Category">
-							<input type="submit" name="submit" class="btn" value="Search">
-						</form>
-				</div>
+				
 		</div>
 	</div>
 
