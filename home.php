@@ -50,6 +50,12 @@
 							<input type="submit" name="submit" class="btn" value="Delete Rate">
 						</form>
 				</div>
+				<div class="container">
+						<form action="new2.php" class="form" method="get">
+							<input type="text" name="actor" class="TextField" placeholder="Actor">
+							<input type="submit" name="submit" class="btn" value="Search">
+						</form>
+				</div>
 				
 		</div>
 	</div>
