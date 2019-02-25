@@ -56,6 +56,12 @@
 							<input type="submit" name="submit" class="btn" value="Search">
 						</form>
 				</div>
+					<div class="container">
+						<form action="maps.php" class="form" method="get">
+							<input type="text" name="map" class="TextField" placeholder="City">
+							<input type="submit" name="submit" class="btn" value="Search">
+						</form>
+				</div>
 				
 		</div>
 	</div>
