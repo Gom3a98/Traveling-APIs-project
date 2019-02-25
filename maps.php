@@ -4,7 +4,7 @@ $curl = curl_init();
 $v = $_GET['city'];
 //movie id is for deadpool.
 curl_setopt_array($curl, array(
-  CURLOPT_URL => "https://api.themoviedb.org/3/search/movie?api_key=c0fe0cb9dd7a411fe124ccb8725af6c9&language=en-US&query=$v"
+CURLOPT_URL => "https://maps.googleapis.com/maps/api/js?key=AIzaSyBltraS-271CvWiChC2HStkcDC_u3f1ZJk&address=$v"
 ,
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "",
