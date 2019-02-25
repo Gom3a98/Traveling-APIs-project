@@ -1,0 +1,12 @@
+we used PHP+HTML+CSS technologies to implement this assignment
+
+
+1- Install Xamp Or Appserve local server and Run the Apachi server from it
+2- in case Xamp Put the projct in this path "C:\xampp\htdocs"
+3- Open your browser "http://localhost/LetsTravel/home.php"
+4- you can search for movie by name or actor
+5 - for name ->>> Movie name Field and Get from the response the id of the movie
+6 - To Delete Or Post click on GetTokenRate and get the session Id
+7-  To rate or Delete your rate put the movie id and the session id
+8- for Actor ->>> write in Actor Field ;
+
